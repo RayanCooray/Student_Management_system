@@ -38,7 +38,7 @@ public class Mail implements Runnable {
 
         Session session = Session.getDefaultInstance(properties, new Authenticator() {
             protected javax.mail.PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("rayancooray123456@gmail.com", "djmdheowxakwcfrz");  // have to change some settings in SMTP
+                return new PasswordAuthentication("smtpemail@gmail.com", "pass");  // have to change some settings in SMTP
             }
         });
 
